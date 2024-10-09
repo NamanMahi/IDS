@@ -1,0 +1,337 @@
+
+{
+    "data": {
+        "contentFeed": {
+            "feedName": "Shopping_Checklist",
+            "feedResults": [
+                {
+                    "tags": [
+                        "Hospital_bag_checklist_2"
+                    ],
+                    "artifact": {
+                        "id": 25053834,
+                        "contentPage": {
+                            "id": 25053834,
+                            "title": "For you",
+                            "bodyDisplay": "",
+                            "brandedContentSponsor": "",
+                            "brandedContentSponsorImg": "",
+                            "brandedContentSponsorUrl": "",
+                            "active": true,
+                            "urlMappings": [
+                                {
+                                    "incomingUrl": "/product-recommendation-week-1_25053834"
+                                }
+                            ]
+                        },
+                        "slideShow": {
+                            "id": 25053834,
+                            "type": "ProductRoundup",
+                            "slides": [
+                                {
+                                    "id": 70049,
+                                    "headline": "Product 1",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 0,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3TBA4LX"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70050,
+                                    "headline": "Product 2",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 1,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3PD5Irg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70051,
+                                    "headline": "Product 3",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 2,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3PEPWMm"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70052,
+                                    "headline": "Product 4",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 3,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3TTrNEu"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70053,
+                                    "headline": "Product 5",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 4,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3vk9KxX"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70054,
+                                    "headline": "Insert Article Title Here",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 5,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "",
+                                    "retailers": []
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tags": [
+                        "Hospital_bag_checklist_2"
+                    ],
+                    "artifact": {
+                        "id": 25053836,
+                        "contentPage": {
+                            "id": 25053836,
+                            "title": "For baby",
+                            "bodyDisplay": "",
+                            "brandedContentSponsor": "",
+                            "brandedContentSponsorImg": "",
+                            "brandedContentSponsorUrl": "",
+                            "active": true,
+                            "urlMappings": [
+                                {
+                                    "incomingUrl": "/product-recommendation-week-10_25053836"
+                                }
+                            ]
+                        },
+                        "slideShow": {
+                            "id": 25053836,
+                            "type": "ProductRoundup",
+                            "slides": [
+                                {
+                                    "id": 70055,
+                                    "headline": "Pregnancy Pillow",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 0,
+                                    "imageUrl": "/ims/2024/03/Chilling-Home-Pregnancy-Pillow_4x3.jpg",
+                                    "imageAltText": "Pregnancy Pillow",
+                                    "photoCredit": "xyz",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3PEPWMm"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70056,
+                                    "headline": "Bio-Oil Skincare Oil",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 1,
+                                    "imageUrl": "/ims/2024/03/Bio-Oil-Skincare-Oil-xyz_4x3.jpg",
+                                    "imageAltText": "Bio-Oil Skincare Oil",
+                                    "photoCredit": "xyz",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/49jbKEh"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70057,
+                                    "headline": "Maternity Bras",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 2,
+                                    "imageUrl": "/ims/2024/03/HoFish-Maternity-Bras_4x3.jpg",
+                                    "imageAltText": "Maternity Bras",
+                                    "photoCredit": "xyz",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/497t3Iw"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70058,
+                                    "headline": "Maternity Leggings",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 3,
+                                    "imageUrl": "/ims/2024/03/amiyoyo-maternity-leggings-xyz_4x3.jpg",
+                                    "imageAltText": "Maternity Leggings",
+                                    "photoCredit": "xyz",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/43wt9Zb"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 70059,
+                                    "headline": "Stainless Steel Water Bottle",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 4,
+                                    "imageUrl": "/ims/2024/03/Goppus-Stainless-Steel-Water-Bottle-xyz_4x3.jpg",
+                                    "imageAltText": "Stainless Steel Water Bottle",
+                                    "photoCredit": "xyz",
+                                    "retailers": [
+                                        {
+                                            "productId": "",
+                                            "productLink": "https://xyz.to/3IVFHQf"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tags": [
+                        "Hospital_bag_checklist_2",
+                        "Test_tag_12"
+                    ],
+                    "artifact": {
+                        "id": 25054118,
+                        "contentPage": {
+                            "id": 25054118,
+                            "title": "Article",
+                            "bodyDisplay": "",
+                            "brandedContentSponsor": "",
+                            "brandedContentSponsorImg": "",
+                            "brandedContentSponsorUrl": "",
+                            "active": true,
+                            "urlMappings": [
+                                {
+                                    "incomingUrl": "/carseat-category_25054118"
+                                }
+                            ]
+                        },
+                        "slideShow": {
+                            "id": 25054118,
+                            "type": "ProductRoundup",
+                            "slides": [
+                                {
+                                    "id": 70072,
+                                    "headline": "Insert Article Title Here",
+                                    "shortName": "",
+                                    "caption": "",
+                                    "order": 0,
+                                    "imageUrl": "https://www.sample.com/",
+                                    "imageAltText": "",
+                                    "photoCredit": "https://www.sample.com/article-url-from-photo-credit",
+                                    "retailers": []
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tags": [
+                        "Hospital_bag_checklist_2"
+                    ],
+                    "artifact": {
+                        "id": 25054150,
+                        "contentPage": {
+                            "id": 25054150,
+                            "title": "Sponsored",
+                            "bodyDisplay": "",
+                            "brandedContentSponsor": "Sponsored by",
+                            "brandedContentSponsorImg": "https://www.sample.com/",
+                            "brandedContentSponsorUrl": "https://www.sample.com/",
+                            "active": true,
+                            "urlMappings": [
+                                {
+                                    "incomingUrl": "/pregnancy/sponsored_25054150"
+                                }
+                            ]
+                        },
+                        "slideShow": {
+                            "id": 25054150,
+                            "type": "ProductRoundup",
+                            "slides": []
+                        }
+                    }
+                },
+                {
+                    "tags": [
+                        "Nursery_6"
+                    ],
+                    "artifact": {}
+                },
+                {
+                    "tags": [
+                        "Test_tag_12"
+                    ],
+                    "artifact": {
+                        "id": 25054120,
+                        "contentPage": {
+                            "id": 25054120,
+                            "title": "Pushchair Category",
+                            "bodyDisplay": "",
+                            "brandedContentSponsor": "",
+                            "brandedContentSponsorImg": "",
+                            "brandedContentSponsorUrl": "",
+                            "active": true,
+                            "urlMappings": [
+                                {
+                                    "incomingUrl": "/pushchair-category_25054120"
+                                }
+                            ]
+                        },
+                        "slideShow": {
+                            "id": 25054120,
+                            "type": "ProductRoundup",
+                            "slides": []
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

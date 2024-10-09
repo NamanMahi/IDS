@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA2C0F42CB64AAB001694DA /* IDSLogicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C0F32CB64AAB001694DA /* IDSLogicApp.swift */; };
+		CCA2C0F62CB64AAB001694DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C0F52CB64AAB001694DA /* ContentView.swift */; };
+		CCA2C0F82CB64AAE001694DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA2C0F72CB64AAE001694DA /* Assets.xcassets */; };
+		CCA2C0FB2CB64AAE001694DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA2C0FA2CB64AAE001694DA /* Preview Assets.xcassets */; };
+		CCA2C1052CB64AAE001694DA /* IDSLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1042CB64AAE001694DA /* IDSLogicTests.swift */; };
+		CCA2C10F2CB64AAF001694DA /* IDSLogicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C10E2CB64AAF001694DA /* IDSLogicUITests.swift */; };
+		CCA2C1112CB64AAF001694DA /* IDSLogicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1102CB64AAF001694DA /* IDSLogicUITestsLaunchTests.swift */; };
+		CCA2C1212CB64B97001694DA /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1202CB64B97001694DA /* View+Ext.swift */; };
+		CCA2C1232CB64B9E001694DA /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1222CB64B9E001694DA /* Color+Ext.swift */; };
+		CCA2C1252CB64BA4001694DA /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1242CB64BA4001694DA /* ColorConstant.swift */; };
+		CCA2C1272CB64BB3001694DA /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = CCA2C1262CB64BB3001694DA /* Data.json */; };
+		CCA2C1292CB64BCC001694DA /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C1282CB64BCC001694DA /* CategoryViewModel.swift */; };
+		CCA2C12B2CB64BD1001694DA /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C12A2CB64BD1001694DA /* CategoryModel.swift */; };
+		CCA2C12D2CB64BD8001694DA /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2C12C2CB64BD8001694DA /* CategoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA2C1012CB64AAE001694DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA2C0E82CB64AAB001694DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA2C0EF2CB64AAB001694DA;
+			remoteInfo = IDSLogic;
+		};
+		CCA2C10B2CB64AAF001694DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA2C0E82CB64AAB001694DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA2C0EF2CB64AAB001694DA;
+			remoteInfo = IDSLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA2C0F02CB64AAB001694DA /* IDSLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDSLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA2C0F32CB64AAB001694DA /* IDSLogicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDSLogicApp.swift; sourceTree = "<group>"; };
+		CCA2C0F52CB64AAB001694DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCA2C0F72CB64AAE001694DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA2C0FA2CB64AAE001694DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCA2C1002CB64AAE001694DA /* IDSLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDSLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA2C1042CB64AAE001694DA /* IDSLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDSLogicTests.swift; sourceTree = "<group>"; };
+		CCA2C10A2CB64AAF001694DA /* IDSLogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDSLogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA2C10E2CB64AAF001694DA /* IDSLogicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDSLogicUITests.swift; sourceTree = "<group>"; };
+		CCA2C1102CB64AAF001694DA /* IDSLogicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDSLogicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCA2C1202CB64B97001694DA /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		CCA2C1222CB64B9E001694DA /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		CCA2C1242CB64BA4001694DA /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		CCA2C1262CB64BB3001694DA /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		CCA2C1282CB64BCC001694DA /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		CCA2C12A2CB64BD1001694DA /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		CCA2C12C2CB64BD8001694DA /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA2C0ED2CB64AAB001694DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C0FD2CB64AAE001694DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C1072CB64AAF001694DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA2C0E72CB64AAB001694DA = {
+			isa = PBXGroup;
+			children = (
+				CCA2C0F22CB64AAB001694DA /* IDSLogic */,
+				CCA2C1032CB64AAE001694DA /* IDSLogicTests */,
+				CCA2C10D2CB64AAF001694DA /* IDSLogicUITests */,
+				CCA2C0F12CB64AAB001694DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA2C0F12CB64AAB001694DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C0F02CB64AAB001694DA /* IDSLogic.app */,
+				CCA2C1002CB64AAE001694DA /* IDSLogicTests.xctest */,
+				CCA2C10A2CB64AAF001694DA /* IDSLogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA2C0F22CB64AAB001694DA /* IDSLogic */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C0F32CB64AAB001694DA /* IDSLogicApp.swift */,
+				CCA2C0F52CB64AAB001694DA /* ContentView.swift */,
+				CCA2C0F72CB64AAE001694DA /* Assets.xcassets */,
+				CCA2C1262CB64BB3001694DA /* Data.json */,
+				CCA2C11D2CB64B69001694DA /* Extensions */,
+				CCA2C11E2CB64B70001694DA /* Constants */,
+				CCA2C11F2CB64B76001694DA /* Models */,
+				CCA2C0F92CB64AAE001694DA /* Preview Content */,
+			);
+			path = IDSLogic;
+			sourceTree = "<group>";
+		};
+		CCA2C0F92CB64AAE001694DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C0FA2CB64AAE001694DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCA2C1032CB64AAE001694DA /* IDSLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C1042CB64AAE001694DA /* IDSLogicTests.swift */,
+			);
+			path = IDSLogicTests;
+			sourceTree = "<group>";
+		};
+		CCA2C10D2CB64AAF001694DA /* IDSLogicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C10E2CB64AAF001694DA /* IDSLogicUITests.swift */,
+				CCA2C1102CB64AAF001694DA /* IDSLogicUITestsLaunchTests.swift */,
+			);
+			path = IDSLogicUITests;
+			sourceTree = "<group>";
+		};
+		CCA2C11D2CB64B69001694DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C1202CB64B97001694DA /* View+Ext.swift */,
+				CCA2C1222CB64B9E001694DA /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CCA2C11E2CB64B70001694DA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C1242CB64BA4001694DA /* ColorConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CCA2C11F2CB64B76001694DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2C1282CB64BCC001694DA /* CategoryViewModel.swift */,
+				CCA2C12A2CB64BD1001694DA /* CategoryModel.swift */,
+				CCA2C12C2CB64BD8001694DA /* CategoryView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA2C0EF2CB64AAB001694DA /* IDSLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA2C1142CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogic" */;
+			buildPhases = (
+				CCA2C0EC2CB64AAB001694DA /* Sources */,
+				CCA2C0ED2CB64AAB001694DA /* Frameworks */,
+				CCA2C0EE2CB64AAB001694DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDSLogic;
+			productName = IDSLogic;
+			productReference = CCA2C0F02CB64AAB001694DA /* IDSLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA2C0FF2CB64AAE001694DA /* IDSLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA2C1172CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogicTests" */;
+			buildPhases = (
+				CCA2C0FC2CB64AAE001694DA /* Sources */,
+				CCA2C0FD2CB64AAE001694DA /* Frameworks */,
+				CCA2C0FE2CB64AAE001694DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA2C1022CB64AAE001694DA /* PBXTargetDependency */,
+			);
+			name = IDSLogicTests;
+			productName = IDSLogicTests;
+			productReference = CCA2C1002CB64AAE001694DA /* IDSLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA2C1092CB64AAF001694DA /* IDSLogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA2C11A2CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogicUITests" */;
+			buildPhases = (
+				CCA2C1062CB64AAF001694DA /* Sources */,
+				CCA2C1072CB64AAF001694DA /* Frameworks */,
+				CCA2C1082CB64AAF001694DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA2C10C2CB64AAF001694DA /* PBXTargetDependency */,
+			);
+			name = IDSLogicUITests;
+			productName = IDSLogicUITests;
+			productReference = CCA2C10A2CB64AAF001694DA /* IDSLogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA2C0E82CB64AAB001694DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CCA2C0EF2CB64AAB001694DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CCA2C0FF2CB64AAE001694DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CCA2C0EF2CB64AAB001694DA;
+					};
+					CCA2C1092CB64AAF001694DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CCA2C0EF2CB64AAB001694DA;
+					};
+				};
+			};
+			buildConfigurationList = CCA2C0EB2CB64AAB001694DA /* Build configuration list for PBXProject "IDSLogic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA2C0E72CB64AAB001694DA;
+			productRefGroup = CCA2C0F12CB64AAB001694DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA2C0EF2CB64AAB001694DA /* IDSLogic */,
+				CCA2C0FF2CB64AAE001694DA /* IDSLogicTests */,
+				CCA2C1092CB64AAF001694DA /* IDSLogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA2C0EE2CB64AAB001694DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA2C0FB2CB64AAE001694DA /* Preview Assets.xcassets in Resources */,
+				CCA2C1272CB64BB3001694DA /* Data.json in Resources */,
+				CCA2C0F82CB64AAE001694DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C0FE2CB64AAE001694DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C1082CB64AAF001694DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA2C0EC2CB64AAB001694DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA2C0F62CB64AAB001694DA /* ContentView.swift in Sources */,
+				CCA2C1232CB64B9E001694DA /* Color+Ext.swift in Sources */,
+				CCA2C0F42CB64AAB001694DA /* IDSLogicApp.swift in Sources */,
+				CCA2C1212CB64B97001694DA /* View+Ext.swift in Sources */,
+				CCA2C12B2CB64BD1001694DA /* CategoryModel.swift in Sources */,
+				CCA2C1292CB64BCC001694DA /* CategoryViewModel.swift in Sources */,
+				CCA2C12D2CB64BD8001694DA /* CategoryView.swift in Sources */,
+				CCA2C1252CB64BA4001694DA /* ColorConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C0FC2CB64AAE001694DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA2C1052CB64AAE001694DA /* IDSLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA2C1062CB64AAF001694DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA2C1112CB64AAF001694DA /* IDSLogicUITestsLaunchTests.swift in Sources */,
+				CCA2C10F2CB64AAF001694DA /* IDSLogicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA2C1022CB64AAE001694DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA2C0EF2CB64AAB001694DA /* IDSLogic */;
+			targetProxy = CCA2C1012CB64AAE001694DA /* PBXContainerItemProxy */;
+		};
+		CCA2C10C2CB64AAF001694DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA2C0EF2CB64AAB001694DA /* IDSLogic */;
+			targetProxy = CCA2C10B2CB64AAF001694DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCA2C1122CB64AAF001694DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA2C1132CB64AAF001694DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA2C1152CB64AAF001694DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDSLogic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA2C1162CB64AAF001694DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDSLogic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCA2C1182CB64AAF001694DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDSLogic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IDSLogic";
+			};
+			name = Debug;
+		};
+		CCA2C1192CB64AAF001694DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDSLogic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IDSLogic";
+			};
+			name = Release;
+		};
+		CCA2C11B2CB64AAF001694DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDSLogic;
+			};
+			name = Debug;
+		};
+		CCA2C11C2CB64AAF001694DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rajshree.IDSLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDSLogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA2C0EB2CB64AAB001694DA /* Build configuration list for PBXProject "IDSLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA2C1122CB64AAF001694DA /* Debug */,
+				CCA2C1132CB64AAF001694DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA2C1142CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA2C1152CB64AAF001694DA /* Debug */,
+				CCA2C1162CB64AAF001694DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA2C1172CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA2C1182CB64AAF001694DA /* Debug */,
+				CCA2C1192CB64AAF001694DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA2C11A2CB64AAF001694DA /* Build configuration list for PBXNativeTarget "IDSLogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA2C11B2CB64AAF001694DA /* Debug */,
+				CCA2C11C2CB64AAF001694DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA2C0E82CB64AAB001694DA /* Project object */;
+}
